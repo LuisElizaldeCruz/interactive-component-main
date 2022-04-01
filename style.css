@@ -11,6 +11,9 @@
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
 
+.body{
+    background-color: var(--Very-Dark-Blue);
+}
 
 .cardblack{
     width: 310px;
