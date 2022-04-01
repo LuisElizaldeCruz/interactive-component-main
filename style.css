@@ -12,11 +12,12 @@
 }
 
 
-.card{
+.cardblack{
     width: 310px;
     background-color: var(--Very-Dark-Blue);
     border-radius: 10px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .pregunta{
@@ -29,10 +30,10 @@
 }
 
 .lista-numeros{
-    padding: 25px 0px;
+    padding: 10px 0px;
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content:space-between;
     
 }   
 
@@ -46,7 +47,14 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
     
+}
+
+li:hover{
+    background-color: var(--Orange);
+    cursor: pointer;
+    color: var(--White);
 }
 
 .container-estrella{
@@ -63,22 +71,53 @@ li{
     margin: auto;
 }
 
-.boton{
-    width: 100%;
-    background-color: var(--Very-Dark-Blue);
-}
 
-.boton>a{
-    
-    margin: 30px 0;
+/* 
+.boton{
     height: 35px;
-    width: 300px;
+    width: auto;
+    margin: 0px 30px;
     display: flex;
     border-radius: 40px;
     background-color: var(--Orange);
-    color: var(--White);
     justify-content: center;
     align-items: center;
-   text-decoration: none;
+    text-align: center;
     
+}
+
+.boton:hover {
+    background-color: var(--White);
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--White);
+} */
+
+a{
+height: 35px;
+width: auto;
+margin: 0px 30px;
+display: flex;
+border-radius: 40px;
+background-color: var(--Orange);
+justify-content: center;
+align-items: center;
+text-align: center;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: var(--White);
+}
+
+a:hover{
+    background-color: var(--White);
+    color: var(--Orange)
 }
